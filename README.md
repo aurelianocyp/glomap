@@ -2,24 +2,9 @@
 
 [Project page](https://lpanaf.github.io/eccv24_glomap/) | [Paper](https://arxiv.org/pdf/2407.20219)
 ---
-
-## About
-
-GLOMAP is a general purpose global structure-from-motion pipeline for
-image-based reconstruction. GLOMAP requires a COLMAP database as input and
-outputs a COLMAP sparse reconstruction. As compared to COLMAP, this project
-provides a much more efficient and scalable reconstruction process, typically
-1-2 orders of magnitude faster, with on-par or superior reconstruction quality.
-
-If you use this project for your research, please cite
-```
-@inproceedings{pan2024glomap,
-    author={Pan, Linfei and Barath, Daniel and Pollefeys, Marc and Sch\"{o}nberger, Johannes Lutz},
-    title={{Global Structure-from-Motion Revisited}},
-    booktitle={European Conference on Computer Vision (ECCV)},
-    year={2024},
-}
-```
+bug：
+- Failed to find Ceres - Found Eigen dependency, but the version of Eigen found (3.4.0) does not exactly match the version of Eigen Ceres was compiled with (3.3.4)
+    - https://blog.csdn.net/weixin_44003484/article/details/123460836
 
 ## Getting Started
 
