@@ -41,8 +41,12 @@ cmake .. -GNinja
 ninja
 sudo ninja install
 ```
-
-
+Run COLMAP:
+```shell
+colmap -h
+colmap gui
+```
+install glomap
 ```shell
 mkdir build
 cd build
