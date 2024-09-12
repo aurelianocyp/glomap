@@ -47,7 +47,9 @@ colmap -h
 colmap gui
 ```
 install glomap：
+
 更换eigen从3.3.4到3.4版本：https://blog.csdn.net/CC977/article/details/122972719
+
 卸载ceres更换3.4eigen编译的ceres2.0： sudo apt-get install  libceres-dev
 
 https://github.com/siyandong/ceres-solver
