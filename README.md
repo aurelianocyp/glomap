@@ -91,9 +91,9 @@ Download the datasets and put them under `data` folder.
 If a COLMAP database already exists, GLOMAP can directly use it to perform mapping:
 ```shell
 glomap mapper \
-    --database_path ./data/gerrard-hall/database.db \
-    --image_path    ./data/gerrard-hall/images \
-    --output_path   ./output/gerrard-hall/sparse
+    --database_path ./data/database.db \
+    --image_path    ./data/images \
+    --output_path   ./output/sparse
 ```
 
 ### From images
@@ -120,7 +120,7 @@ for more details.
 
 The reconstruction can be visualized using the COLMAP GUI, for example:
 ```shell
-colmap gui --import_path ./output/south-building/sparse/0
+colmap gui --import_path ./output/sparse/0 --database_path ./data/database.db --image_path    ./data/images
 ```
 Alternatives like [rerun.io](https://rerun.io/examples/3d-reconstruction/glomap)
 also enable visualization of COLMAP and GLOMAP outputs.
