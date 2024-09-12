@@ -32,6 +32,7 @@ sudo apt-get install \
     libcgal-dev \
     libceres-dev
 ```
+源码安装LZ4库：https://github.com/lz4/lz4
 ```shell
 
 mkdir build
