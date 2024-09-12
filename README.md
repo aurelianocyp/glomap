@@ -53,6 +53,8 @@ install glomap：
 卸载ceres更换3.4eigen编译的ceres2.0： sudo apt-get install  libceres-dev
 
 https://github.com/siyandong/ceres-solver
+
+更换完毕后还需要做一些小修改：https://blog.csdn.net/weixin_44003484/article/details/123460836（注意eigen位置）
 ```shell
 mkdir build
 cd build
