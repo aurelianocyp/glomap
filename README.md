@@ -8,7 +8,8 @@ bug：
 
 ## Getting Started
 首先配置colmap：git clone https://github.com/colmap/colmap
-// comap中需要一个 libgmock-dev库。安装方式：https://www.cnblogs.com/dinghou/p/15350690.html
+
+colmap中需要一个 libgmock-dev库。安装方式：https://www.cnblogs.com/dinghou/p/15350690.html
 ```shell
 sudo apt-get install \
     git \
@@ -34,7 +35,13 @@ sudo apt-get install \
 ```
 源码安装LZ4库：https://github.com/lz4/lz4
 ```shell
-
+mkdir build
+cd build
+cmake .. -GNinja
+ninja
+sudo ninja install
+```
+```shell
 mkdir build
 cd build
 cmake .. -GNinja
