@@ -7,10 +7,33 @@ bug：
     - https://blog.csdn.net/weixin_44003484/article/details/123460836
 
 ## Getting Started
-
-To build GLOMAP, first install [COLMAP](https://colmap.github.io/install.html#build-from-source)
-dependencies and then build GLOMAP using the following commands: 
+首先配置colmap：git clone https://github.com/colmap/colmap
+comap中需要一个 libgmock-dev库。安装方式：https://www.cnblogs.com/dinghou/p/15350690.html
 ```shell
+sudo apt-get install \
+    git \
+    cmake \
+    ninja-build \
+    build-essential \
+    libboost-program-options-dev \
+    libboost-filesystem-dev \
+    libboost-graph-dev \
+    libboost-system-dev \
+    libeigen3-dev \
+    libflann-dev \
+    libfreeimage-dev \
+    libmetis-dev \
+    libgoogle-glog-dev \
+    libgtest-dev \
+    libsqlite3-dev \
+    libglew-dev \
+    qtbase5-dev \
+    libqt5opengl5-dev \
+    libcgal-dev \
+    libceres-dev
+```
+```shell
+
 mkdir build
 cd build
 cmake .. -GNinja
