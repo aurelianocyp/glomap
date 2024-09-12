@@ -46,7 +46,8 @@ Run COLMAP:
 colmap -h
 colmap gui
 ```
-install glomap
+install glomap：
+更换eigen从3.3.4到3.4版本：https://blog.csdn.net/CC977/article/details/122972719
 ```shell
 mkdir build
 cd build
