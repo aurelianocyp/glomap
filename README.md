@@ -41,15 +41,14 @@ cmake .. -GNinja
 ninja
 sudo ninja install
 ```
+
+
 ```shell
 mkdir build
 cd build
 cmake .. -GNinja
 ninja && ninja install
 ```
-Pre-compiled Windows binaries can be downloaded from the official
-[release page](https://github.com/colmap/glomap/releases).
-
 After installation, one can run GLOMAP by (starting from a database)
 ```shell
 glomap mapper --database_path DATABASE_PATH --output_path OUTPUT_PATH --image_path IMAGE_PATH
