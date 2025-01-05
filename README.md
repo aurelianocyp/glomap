@@ -147,46 +147,5 @@ colmap vocab_tree_matcher --database_path DATABASE_PATH --VocabTreeMatching.voca
 We are highly inspired by COLMAP, PoseLib, Theia. Please consider also citing
 them, if using GLOMAP in your work.
 
-## Support
-
-Please, use GitHub Discussions at https://github.com/colmap/glomap/discussions
-for questions and the GitHub issue tracker at https://github.com/colmap/glomap
-for bug reports, feature requests/additions, etc.
-
-## Contribution
-
-Contributions (bug reports, bug fixes, improvements, etc.) are very welcome and
-should be submitted in the form of new issues and/or pull requests on GitHub.
-
-## License
-
-```
-Copyright (c) 2024, ETH Zurich.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
-
-    * Neither the name of ETH Zurich nor the names of its contributors may
-      be used to endorse or promote products derived from this software
-      without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
-```
+## notes
+Windows使用指南。下载后进入glomap.exe所在的位置 .\glomap.exe mapper --database_path D:\AAA\files\code\python_code\a6000\workspace\nerfstudio-webui\data\workspace\ys1_1920_1080\2025_1_2_14229\ys1_1920_1080_377\colmap\database.db --output_path C:/Users/15061/Desktop/glomap-x64-windows/output --image_path D:AAA/files/code/python_code/a6000/workspace/nerfstudio-webui/data/workspace/验收1_1920_1080/2025_1_2_14229/验收1_1920_1080/images。目前只能用mapper，且Windows只能用命令行。
