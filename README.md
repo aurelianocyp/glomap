@@ -148,4 +148,4 @@ We are highly inspired by COLMAP, PoseLib, Theia. Please consider also citing
 them, if using GLOMAP in your work.
 
 ## notes
-Windows使用指南。下载后进入glomap.exe所在的位置 .\glomap.exe mapper --database_path D:\AAA\files\code\python_code\a6000\workspace\nerfstudio-webui\data\workspace\ys1_1920_1080\2025_1_2_14229\ys1_1920_1080_377\colmap\database.db --output_path C:/Users/15061/Desktop/glomap-x64-windows/output --image_path D:AAA/files/code/python_code/a6000/workspace/nerfstudio-webui/data/workspace/验收1_1920_1080/2025_1_2_14229/验收1_1920_1080/images。目前只能用mapper，且Windows只能用命令行。
+Windows使用指南。下载后进入glomap.exe所在的位置 .\glomap.exe mapper --database_path D:\AAA\files\code\python_code\a6000\workspace\nerfstudio-webui\data\workspace\ys1_1920_1080\2025_1_2_14229\ys1_1920_1080_377\colmap\database.db --output_path C:/Users/15061/Desktop/glomap-x64-windows/output --image_path D:AAA/files/code/python_code/a6000/workspace/nerfstudio-webui/data/workspace/验收1_1920_1080/2025_1_2_14229/验收1_1920_1080/images。目前只能用mapper，且Windows只能用命令行。https://github.com/colmap/glomap/issues/61
