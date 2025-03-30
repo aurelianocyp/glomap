@@ -7,54 +7,10 @@ bug：
     - https://blog.csdn.net/weixin_44003484/article/details/123460836
 
 ## Getting Started
-首先配置colmap：git clone https://github.com/colmap/colmap
+要求cmake 3.28照着笔记里换
 
-colmap中需要一个 libgmock-dev库。安装方式：https://www.cnblogs.com/dinghou/p/15350690.html
-```shell
-sudo apt-get install \
-    git \
-    cmake \
-    ninja-build \
-    build-essential \
-    libboost-program-options-dev \
-    libboost-filesystem-dev \
-    libboost-graph-dev \
-    libboost-system-dev \
-    libeigen3-dev \
-    libflann-dev \
-    libfreeimage-dev \
-    libmetis-dev \
-    libgoogle-glog-dev \
-    libgtest-dev \
-    libsqlite3-dev \
-    libglew-dev \
-    qtbase5-dev \
-    libqt5opengl5-dev \
-    libcgal-dev \
-    libceres-dev
-```
-源码安装LZ4库：https://github.com/lz4/lz4
-```shell
-mkdir build
-cd build
-cmake .. -GNinja
-ninja
-sudo ninja install
-```
-Run COLMAP:
-```shell
-colmap -h
-colmap gui
-```
-install glomap：
 
-更换eigen从3.3.4到3.4版本：https://blog.csdn.net/CC977/article/details/122972719
 
-卸载ceres更换3.4eigen编译的ceres2.0： sudo apt-get install  libceres-dev
-
-https://github.com/siyandong/ceres-solver
-
-更换完毕后还需要做一些小修改：https://blog.csdn.net/weixin_44003484/article/details/123460836（注意eigen位置）
 ```shell
 mkdir build
 cd build
